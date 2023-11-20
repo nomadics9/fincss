@@ -172,11 +172,23 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   right: -20%;
 }
 
-.layout-desktop .itemBackdrop:after {
+/*.layout-desktop .itemBackdrop:after {
   background: url("./themes/mytheme/mask.png");
   background-size: cover;
   width: 100%;
   height: 100%;
+}*/
+  .layout-desktop .itemBackdrop::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent),
+                    linear-gradient(to left, rgba(0, 0, 0, 0.8), transparent);
+  background-size: 100% 100%, 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1; /* Adjust the z-index as needed */
 }
 
 .layout-desktop .detailPageWrapperContainer {
