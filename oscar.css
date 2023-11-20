@@ -22,7 +22,7 @@
   display: none;
 }
 #footer:after {
-  content: 'New Fresh UI ! ';
+  content: 'New Fresh UI !';
 }
 
 
@@ -172,7 +172,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
 }
 
 .layout-desktop .itemBackdrop:after {
-  background: url("https://fs.rax.mov/mask1.png");
+  background: url("https://github.io/nomadics9/mask1.png");
   background-size: cover;
   width: 100%;
   height: 100%;
