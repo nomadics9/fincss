@@ -173,7 +173,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
 }
 
 .layout-desktop .itemBackdrop:after {
-  background: url("https://fs.rax.mov/sager/mask.png");
+  background: url("./jellfyin/jellyfin-web/themes/mytheme/mask.png");
   background-size: cover;
   width: 100%;
   height: 100%;
