@@ -171,9 +171,9 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   position: relative;
   right: -20%;
 }
-
+  
 .layout-desktop .itemBackdrop:after {
-  background: url("./jellyfin-web/themes/mytheme/mask.png");
+  background: url("mask.png");
   background-size: cover;
   width: 100%;
   height: 100%;
