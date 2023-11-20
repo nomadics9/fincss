@@ -172,7 +172,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
 }
 
 .layout-desktop .itemBackdrop:after {
-  background: url("https://fs.rax.mov/mask.png");
+  background: url("https://fs.rax.mov/mask1.png");
   background-size: cover;
   width: 100%;
   height: 100%;
