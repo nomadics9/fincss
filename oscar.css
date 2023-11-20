@@ -22,7 +22,7 @@
   display: none;
 }
 #footer:after {
-  content: 'New Fresh UI !';
+  content: 'New Fresh UI ! ';
 }
 
 
@@ -150,211 +150,6 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   display: none !important;
 }
 
-/*#####################################################################################################################
-            LAYOUT DESKTOP
-
-######################################################################################################################*/
-
-.layout-desktop .detailLogo {
-  left: 5%;
-  background-position: top left;
-}
-
-.layout-desktop .itemBackdrop {
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 80vw;
-  position: relative;
-  right: -20%;
-}
-
-.layout-desktop .itemBackdrop:after {
-  background: url("https://github.io/nomadics9/mask1.png");
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.layout-desktop .detailPageWrapperContainer {
-  margin-top: -65vh; /* inicial: 73 */
-}
-
-.layout-desktop .detailImageContainer .card,
-.layout-desktop .itemTags,
-.layout-desktop .itemExternalLinks {
-  display: none;
-}
-
-.layout-desktop .detailPagePrimaryContainer,
-.layout-desktop .detailPageContent {
-  padding-left: 5%;
-}
-
-.layout-desktop .detailPagePrimaryContent {
-  width: 45%;
-}
-
-.layout-desktop .detailPagePrimaryContainer {
-  display: inline-table;
-  z-index: 2;
-  left: 5%;
-}
-
-.layout-desktop .detailPageSecondaryContainer {
-  margin: 0 0 1.25em 0;@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/backdropHackStyle.css");
-@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/loginPage.css");
-@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/castRow.css");
-
-
-/*Hide forget button*/
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-  display: none;
-}
-
-/* remove My Media title */
-.section0 .sectionTitle {display: none;}
-
-/* footer alert */
-/*#footer {position: fixed;  bottom: 0; width: 80%; height: 28px; background: #3bb143; z-index: 0;text-align: center; font-size: 18px; font-weight: 700; border-radius: 7px; margin: 0 auto 25px auto;*/
-/*comment out below to hide banner*/
-/*display: none !important;*/ 
-
-#footer {position: fixed;  bottom: 0; width: 80%; height: 28px; background: #007500; z-index: 0;text-align: center; border-radius: 7px; margin: 0 auto 25px auto;}
-
-#footer span {
-  display: none;
-}
-#footer:after {
-  content: 'New Fresh UI ! ';
-}
-
-
-
-#mdiv {
-width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; 
-}
-
-/* Rounded cards */
-.cardContent,
-.cardPadder,
-.cardOverlayContainer,
-.blurhash-canvas,
-.dialog {
-    border-radius: 10px !important;
-}
-
-/* Floating progress bar */
-.innerCardFooter {
-    bottom: 5% !important;
-    width: 90% !important;
-    margin: auto !important;
-    border-radius: 100px !important;
-}
-.itemProgressBar {
-    height: 8px !important;
-}
-.innerCardFooterClear {
-    background-color: black !important;
-}
-
-/* Green watched indicator */
-.playedIndicator {
-    background: #409843 !important;
-}
-
-/*Rounded left drawer buttons */
-.navMenuOption,
-.navMenuOption:hover,
-.navMenuOption-selected {
-    border-radius: 100px !important;
-    width: 85% !important;
-    margin: auto !important;
-    text-align: center !important;
-    height: 45px !important;
-}
-.navMenuOption:hover:not(.navMenuOption-selected) {
-    background-color: rgba(44, 44, 44, 0.7);
-}
-
-/* Center icons and text and shift to the left */
-.navMenuOptionIcon,
-.navMenuOptionText {
-    position: inherit !important;
-    left: -10% !important;
-    margin-top: 0 !important;
-}
-
-/* Fix for header buttons */
-.layout-desktop .emby-button-foreground {
-    top: -9px !important;
-}
-
-/* Mobile fixes */
-.layout-mobile .headroom--unpinned {
-    transform: translateY(-50%);
-}
-.layout-mobile .sectionTabs {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: auto !important;
-}
-.layout-mobile .emby-button-foreground {
-    top: -2px !important;
-}
-
-/* Static left drawer */
-.layout-desktop .mainDrawer {
-    transform: none !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 252px !important;
-    /* Modified background color */
-    background-color: transparent !important;
-    /* Move drawer behind header */
-    /*z-index: 998 !important;*/
-}
-/* Shift content to the right */
-.layout-desktop .libraryPage:not(#editItemMetadataPage) {
-    margin-left: 252px !important;
-}
-/*shift header left */
-.layout-desktop {
-.headerButton.headerButtonLeft.headerBackButton.paper-icon-button-light {margin-left: 252px !important;}
-.headerButton.headerButtonLeft.headerHomeButton.paper-icon-button-light {margin-left: 0px !important}
-}
-/* Fix for Jellyfin Media Player */
-.quickConnectSettingsContainer {
-    margin-left: 252px !important;
-}
-/* Fix for video player and login page */
-.layout-desktop .hide-scroll .mainDrawer,
-.layout-desktop .hideMainDrawer .mainDrawer {
-    left: -320px !important;
-}
-
-
-/* Lower drawer buttons 
-.layout-desktop .mainDrawer-scrollContainer {
-    margin-top: 95px !important;
-} */
-.layout-mobile .mainDrawer-scrollContainer {
-    margin-top: 20px !important;
-}
-/* Hide hamburger button */
-.layout-desktop .mainDrawerButton {
-    display: none !important;
-}
-/* Fix for dashboard drawer button height */
-.layout-desktop .dashboardDocument .mainDrawer-scrollContainer {
-    padding-top: 0 !important;
-}
-/* hide logo*/
-.layout-desktop .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-  display: none !important;
-}
 
 /*#####################################################################################################################
             LAYOUT DESKTOP
@@ -378,7 +173,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
 }
 
 .layout-desktop .itemBackdrop:after {
-  background: url("https://github.io/nomadics9/mask.png");
+  background: url("../../themes/mytheme/mask.png");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -511,7 +306,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
 }
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
-  ackground: none;
+  background: none;
   background-color: rgba(0, 0, 0, 0);
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
@@ -731,7 +526,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   border-radius: 50%;
 }
 
-}
+
 
 .layout-desktop .itemDetailsGroup {
   margin-top:  0;
@@ -832,7 +627,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
 }
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
-  ackground: none;
+  background: none;
   background-color: rgba(0, 0, 0, 0);
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
