@@ -177,6 +177,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   background-size: cover;
   width: 100%;
   height: 100%;
+  left: -20%
 }
 
 
