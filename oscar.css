@@ -168,7 +168,8 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   height: 100vh;
   width: 80vw;
   position: relative;
-  right: -50%;
+  right: -20%;
+  top: -30%;
 }
   
 .layout-desktop .itemBackdrop:after {
