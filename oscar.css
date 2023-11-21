@@ -166,7 +166,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 95vw;
+  width: 100vw;
   position: relative;
   right: -0.5%;
 }
