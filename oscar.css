@@ -173,7 +173,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
 }
   
 .layout-desktop .itemBackdrop:after {
-  background: url("https://nomadics9.github.io/mask.png");
+  background: url("https://nomadics9.github.io/maskb.png");
   background-size: cover;
   width: 100%;
   height: 100%;
