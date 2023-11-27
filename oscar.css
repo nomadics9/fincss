@@ -21,7 +21,7 @@
   display: none;
 }
 #footer:after {
-  content: 'New Fresh UI ! ';
+  content: '30 Minutes Maintenance at 15:30';
 }
 
 
@@ -166,7 +166,7 @@ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-conten
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 90vw;
   position: relative;
   right: -0.5%;
 }
