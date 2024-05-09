@@ -17,9 +17,9 @@
 
 #footer {position: fixed;  bottom: 0; width: 80%; height: 28px; background: #007500; z-index: 0;text-align: center; border-radius: 7px; margin: 0 auto 25px auto;}
 
-/*footer span {
+#footer span {
   display: none;
-}*/
+}
 #footer:after {
   content: 'Android tv app is out! search for org.askartv.tv';
 }
