@@ -21,7 +21,7 @@
   display: none;
 }
 #footer:after {
-  content: 'Android tv app is out! search for org.askartv.tv';
+  content: 'Android tv app is out! search for <strong> org.askartv.tv </strong>';
 }
 
 
