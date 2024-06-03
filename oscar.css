@@ -425,24 +425,23 @@
 }
 
 /* arregalndo padding y margin y aumentando tamano de fanart y agregando degradado */
-/* .layout-mobile .itemBackdrop { */
-/*   height: 40vh; /*30*/
-*/
-/*   margin-top: 0; */
-/* } */
-/**/
-/* .layout-mobile .itemBackdrop::before { */
-/*   content: ""; */
-/*   right: 0; */
-/*   left: 0; */
-/*   /*top: 0;*/ */
-/*   bottom: 0; */
-/*   height: 25vh; */
-/*   position: absolute; */
-/*   z-index: -1; */
-/*   /*background: linear-gradient(0deg, #181818 15%, #18181800 65%);*/ */
-/*   background: linear-gradient(0deg, #181818 10%, #18181800 65%); */
-/* } */
+.layout-mobile .itemBackdrop {
+  height: 40vh; /*30*/
+  margin-top: 0;
+}
+
+.layout-mobile .itemBackdrop::before {
+  content: "";
+  right: 0;
+  left: 0;
+  /*top: 0;*/
+  bottom: 0;
+  height: 25vh;
+  position: absolute;
+  z-index: -1;
+  /*background: linear-gradient(0deg, #181818 15%, #18181800 65%);*/
+  background: linear-gradient(0deg, #181818 10%, #18181800 65%);
+}
 
 .layout-mobile .detailPageWrapperContainer {
   top: -5em;
