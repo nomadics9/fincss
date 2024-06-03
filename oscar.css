@@ -148,7 +148,7 @@
 
 /* Lower drawer buttons */
 .layout-desktop .mainDrawer-scrollContainer {
-  margin-top: 50px !important;
+  margin-top: 60px !important;
 }
 /* .layout-mobile .mainDrawer-scrollContainer { */
 /*   margin-top: 0px !important; */
@@ -189,8 +189,8 @@
 }
 
 .layout-desktop .itemBackdrop:after {
-  background: url("https://nomadics9.github.io/maskb.png");
-  background-size: cover;
+  background: url("https://nomadics9.github.io/maskb.png") !important;
+  background-size: cover !important;
   width: 100%;
   height: 100%;
   left: -20%;
