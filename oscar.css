@@ -148,7 +148,7 @@
 
 /* Lower drawer buttons */
 .layout-desktop .mainDrawer-scrollContainer {
-  margin-top: 0px !important;
+  margin-top: -100px !important;
 }
 .layout-mobile .mainDrawer-scrollContainer {
   margin-top: 0px !important;
