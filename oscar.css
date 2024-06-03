@@ -5,6 +5,7 @@
 /*if the logo is present on the details page and loaded hide the title so it doesnt duplicate and look weird*/
 #itemDetailPage .itemName.infoText.parentNameLast > bdi:nth-child(1) {
   display: none;
+  margin-top: 200px;
 }
 .hide + .detailPageWrapperContainer .itemName > bdi:nth-child(1) {
   display: block !important;
@@ -203,7 +204,7 @@
   right: -0.5%;
 }
 
-.layout-desktop .itemBackdrop::before {
+.layout-desktop .itemBackdrop::after {
   background: url("https://nomadics9.github.io/maskb.png") !important;
   background-size: cover !important;
   width: 100%;
