@@ -3,20 +3,19 @@
 @import url("https://xenoncolt.github.io/JellyFlixCustomCSS/castRow.css");
 
 /*if the logo is present on the details page and loaded hide the title so it doesnt duplicate and look weird*/
-#itemDetailPage .itemName.infoText.parentNameLast > bdi:nth-child(1) {
-  display: none;
-  margin-top: 200px;
-}
-.hide + .detailPageWrapperContainer .itemName > bdi:nth-child(1) {
-  display: block !important;
-}
-/*the same but for the single episodes link back title*/
-#itemDetailPage .parentName > bdi:nth-child(1) {
-  display: none;
-}
-.hide + .parentName > bdi:nth-child(1) {
-  display: block !important;
-}
+/* #itemDetailPage .itemName.infoText.parentNameLast > bdi:nth-child(1) { */
+/*   display: none; */
+/* } */
+/* .hide + .detailPageWrapperContainer .itemName > bdi:nth-child(1) { */
+/*   display: block !important; */
+/* } */
+/* /*the same but for the single episodes link back title*/
+/* #itemDetailPage .parentName > bdi:nth-child(1) { */
+/*   display: none; */
+/* } */
+/* .hide + .parentName > bdi:nth-child(1) { */
+/*   display: block !important; */
+/* } */
 
 /*Hide forget button*/
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
@@ -204,9 +203,10 @@
   right: -0.5%;
 }
 
-.layout-desktop .itemBackdrop::after {
+.layout-desktop .itemBackdrop:after {
   background: url("https://nomadics9.github.io/maskb.png") !important;
   background-size: cover !important;
+  z-index: 999999999;
   width: 100%;
   height: 100%;
   left: -20%;
