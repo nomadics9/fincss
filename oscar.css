@@ -148,11 +148,11 @@
 
 /* Lower drawer buttons */
 .layout-desktop .mainDrawer-scrollContainer {
-  margin-top: -100px !important;
+  margin-top: 5% !important;
 }
-.layout-mobile .mainDrawer-scrollContainer {
-  margin-top: 0px !important;
-}
+/* .layout-mobile .mainDrawer-scrollContainer { */
+/*   margin-top: 0px !important; */
+/* } */
 
 /* Hide hamburger button */
 .layout-desktop .mainDrawerButton {
