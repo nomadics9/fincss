@@ -1585,7 +1585,7 @@ progress {
 /* increase header bar icon sizes */
 .layout-desktop .headerTop {
   font-size: 125%;
-  margin-bottom: 5%;
+  margin-bottom: 1em;
 }
 
 /* increases sidebar icon sizes to match above */
