@@ -163,9 +163,9 @@
   padding-top: 0 !important;
 }
 /* hide logo*/
-/* .layout-desktop .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo { */
-/*   display: none !important; */
-/* } */
+.layout-desktop .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+  display: none !important;
+}
 
 /*#####################################################################################################################
             LAYOUT DESKTOP
