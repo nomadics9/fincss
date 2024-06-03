@@ -203,7 +203,7 @@
   right: -0.5%;
 }
 
-.layout-desktop .itemBackdrop:after {
+.layout-desktop .itemBackdrop::before {
   background: url("https://nomadics9.github.io/maskb.png") !important;
   background-size: cover !important;
   width: 100%;
