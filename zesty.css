@@ -1574,6 +1574,7 @@ progress {
   max-height: 3em;
   pointer-events: all;
   font-size: 125%;
+  padding-bottom: 1em;
 }
 
 .videoOsdBottom .buttons {
@@ -1585,7 +1586,6 @@ progress {
 /* increase header bar icon sizes */
 .layout-desktop .headerTop {
   font-size: 125%;
-  margin-top: -1em;
 }
 
 /* increases sidebar icon sizes to match above */
