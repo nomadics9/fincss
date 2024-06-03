@@ -1385,34 +1385,35 @@ progress {
 
 /* glossy */
 
-@supports (backdrop-filter: blur(15px)) {
-  .dialog,
-  /* .mainDrawer, */
-  .toast,
-  .appfooter {
-    backdrop-filter: blur(15px);
-    background-color: rgba(var(--darkest), 0.75) !important;
-  }
-  #itemDetailPage .itemProgressBar,
-  #dashboardPage .backgroundProgress > div {
-    backdrop-filter: blur(4px);
-  }
-  @media all and (max-width: 70em) {
-    .cardOverlayButtonIcon {
-      /* background-color: rgba(var(--darkest), 0.35) !important; */
-    }
-    .cardOverlayButtonIcon {
-      /* backdrop-filter: blur(4px); */
-    }
-  }
-  .indicator {
-    backdrop-filter: blur(2px);
-  }
-
-  .paper-icon-button-light:hover:not(.headerButtonRight) {
-    backdrop-filter: blur(4px);
-  }
-}
+/* @supports (backdrop-filter: blur(15px)) { */
+/*   .dialog, */
+/*    .mainDrawer,  */
+/*   .toast, */
+/*   .appfooter { */
+/*     backdrop-filter: blur(15px); */
+/*     background-color: rgba(var(--darkest), 0.75) !important; */
+/*   } */
+/*   #itemDetailPage .itemProgressBar, */
+/*   #dashboardPage .backgroundProgress > div { */
+/*     backdrop-filter: blur(4px); */
+/*   } */
+/*   @media all and (max-width: 70em) { */
+/*     .cardOverlayButtonIcon { */
+/*       /* background-color: rgba(var(--darkest), 0.35) !important; */
+*/
+/*     } */
+/*     .cardOverlayButtonIcon { */
+/*       /* backdrop-filter: blur(4px); */ */
+/*     } */
+/*   } */
+/*   .indicator { */
+/*     backdrop-filter: blur(2px); */
+/*   } */
+/**/
+/*   .paper-icon-button-light:hover:not(.headerButtonRight) { */
+/*     backdrop-filter: blur(4px); */
+/*   } */
+/* } */
 
 /* Episode List */
 
