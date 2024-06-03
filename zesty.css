@@ -831,7 +831,7 @@ progress::-webkit-progress-value {
   background: rgba(var(--accent), 0.75) !important;
 }
 
-./* increases size and changes color of check boxes */
+/* increases size and changes color of check boxes */
 
 .checkboxOutline {
   border: 0.25em solid;
@@ -1387,7 +1387,7 @@ progress {
 
 @supports (backdrop-filter: blur(15px)) {
   .dialog,
-  .mainDrawer,
+  /* .mainDrawer, */
   .toast,
   .appfooter {
     backdrop-filter: blur(15px);
