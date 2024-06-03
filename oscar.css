@@ -1,4 +1,4 @@
-@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/backdropHackStyle.css");
+/* @import url("https://xenoncolt.github.io/JellyFlixCustomCSS/backdropHackStyle.css"); */
 @import url("https://xenoncolt.github.io/JellyFlixCustomCSS/loginPage.css");
 @import url("https://xenoncolt.github.io/JellyFlixCustomCSS/castRow.css");
 
@@ -188,7 +188,7 @@
   right: -0.5%;
 }
 
-.layout-desktop .backdrop:after {
+.layout-desktop .itemBackdrop:after {
   background: url("https://nomadics9.github.io/maskb.png") !important;
   background-size: cover !important;
   width: 100%;
