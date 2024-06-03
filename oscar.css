@@ -173,8 +173,12 @@
 ######################################################################################################################*/
 
 .layout-desktop .detailLogo {
+  /* left: 5%; */
+  /* background-position: top left; */
+  display: block;
+  width: 15em;
   left: 5%;
-  background-position: top left;
+  top: 17vh;
 }
 
 .layout-desktop .itemBackdrop {
