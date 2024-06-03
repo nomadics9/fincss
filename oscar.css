@@ -147,9 +147,9 @@
 }
 
 /* Lower drawer buttons */
-/* .layout-desktop .mainDrawer-scrollContainer { */
-/*   margin-top: 5% !important; */
-/* } */
+.layout-desktop .mainDrawer-scrollContainer {
+  margin-top: 30px !important;
+}
 /* .layout-mobile .mainDrawer-scrollContainer { */
 /*   margin-top: 0px !important; */
 /* } */
