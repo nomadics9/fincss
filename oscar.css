@@ -118,7 +118,6 @@
   left: 0 !important;
   top: 0 !important;
   width: 262px !important;
-  margin-top: 200px !important;
   /* Modified background color */
   background-color: transparent !important;
   /* Move drawer behind header */
@@ -147,13 +146,14 @@
   left: -320px !important;
 }
 
-/* Lower drawer buttons 
+/* Lower drawer buttons */
 .layout-desktop .mainDrawer-scrollContainer {
-    margin-top: 95px !important;
-} */
+  margin-top: 95px !important;
+}
 .layout-mobile .mainDrawer-scrollContainer {
   margin-top: 20px !important;
 }
+
 /* Hide hamburger button */
 .layout-desktop .mainDrawerButton {
   display: none !important;
