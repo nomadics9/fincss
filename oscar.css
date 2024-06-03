@@ -117,6 +117,7 @@
   transform: none !important;
   left: 0 !important;
   top: 0 !important;
+  bottom: 30px !important;
   width: 262px !important;
   /* Modified background color */
   background-color: transparent !important;
@@ -173,7 +174,6 @@
 
 .layout-desktop .detailLogo {
   left: 5%;
-  right: 30%;
   background-position: top left;
 }
 
