@@ -77,7 +77,7 @@
   text-align: center;
   border-radius: 7px;
   margin: 25px auto 25px auto;
-  /*display: none !important;*/
+  display: none !important;
 }
 
 #footer span {
