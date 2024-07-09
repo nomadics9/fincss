@@ -77,10 +77,11 @@
   text-align: center;
   border-radius: 7px;
   margin: 25px auto 25px auto;
+  /*display: none !important;*/
 }
 
 #footer span {
-  display: none; !important;
+  display: none !important;
 }
 #footer:after {
   content: "New AlaskarTV!";
