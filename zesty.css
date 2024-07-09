@@ -80,7 +80,7 @@
 }
 
 #footer span {
-  display: none;
+  display: none; !important;
 }
 #footer:after {
   content: "New AlaskarTV!";
