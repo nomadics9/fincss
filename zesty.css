@@ -64,8 +64,6 @@
 }
 
 /* footer alert */
-/*comment out below to hide banner*/
-/*display: none !important;*/
 
 #footer {
   position: fixed;
@@ -77,12 +75,14 @@
   text-align: center;
   border-radius: 7px;
   margin: 25px auto 25px auto;
+/*comment out below to hide banner*/
   display: none !important;
 }
 
 #footer span {
-  display: none !important;
+  display: none 
 }
+
 #footer:after {
   content: "New AlaskarTV!";
 }
